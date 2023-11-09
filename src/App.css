@@ -1,0 +1,68 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+form {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+* {
+  background: linear-gradient( yellow ,green);
+}
+.textarea {
+  margin-left: 40%;
+  padding-left: 2%;
+  margin-top: 20%;
+  width: 23%;
+}
+button {
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+input {
+  width: 250px;
+  height: 25px;
+  margin-top: 10px;
+}
+textarea {
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.learn {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  padding: 50px;
+  margin: 20px;
+  border: 2px solid black;
+}
+input::placeholder {
+  color: white;
+  font-size: 20px;
+}
